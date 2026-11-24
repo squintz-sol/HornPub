@@ -9,6 +9,33 @@ reads what is visible on your screen.
 > HornPub is an independent fan project. It is not affiliated with, endorsed or sponsored by NEXON.
 > See [DISCLAIMER.md](DISCLAIMER.md).
 
+## Screenshots
+
+<table>
+  <tr>
+    <td width="34%" valign="top">
+      <img src="screenshots/dashboard.png" alt="HornPub main dashboard after a recording" width="100%">
+    </td>
+    <td valign="top">
+      <b>Main dashboard</b><br>
+      EXP, mesos and potions per minute, per hour and in total: EXP gained with its rate, mesos per hour,
+      HP / MP potions counted from your quickslot, Net Mesos after potion costs, the time elapsed and the
+      level you reached. Start / Pause / Stop from the buttons or with Shift+F7 / F8 / F9.
+    </td>
+  </tr>
+</table>
+
+**History: Top 3 Farming Maps.** Your best maps ranked by EXP/hr, Mesos/hr or Net Mesos/hr, each with its
+minimap picture, plus Map Performance totals (filter by map and period) and Quick Insights.
+
+![HornPub History with the Top 3 Farming Maps, Map Performance and Quick Insights](screenshots/history-top-maps.png)
+
+**History: recordings.** Every recording is saved with its EXP/hr, mesos/hr, Net Mesos/hr and duration. Open
+one for its EXP chart (the rolling rate against the session average) and notes, or to rename it, fix its map,
+split it into segments, or trim it.
+
+![HornPub History with the Recordings list and a recording's EXP chart](screenshots/history-recording-details.png)
+
 ## Download
 
 **[Download the latest version from Releases](https://github.com/squintz-sol/HornPub/releases)**. Pick
