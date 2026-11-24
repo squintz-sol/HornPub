@@ -71,7 +71,7 @@ Delete the HornPub folder. To also remove your recordings and settings, delete `
 Each release lists the zip's SHA-256 checksum. In PowerShell:
 
 ```powershell
-Get-FileHash .\HornPub-v0.3.9-Full-Windows.zip -Algorithm SHA256
+Get-FileHash .\HornPub-v0.3.10-Full-Windows.zip -Algorithm SHA256
 ```
 
 The hash should match the one on the release page.

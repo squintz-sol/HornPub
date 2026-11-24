@@ -2,7 +2,7 @@
 
 Downloads: [GitHub Releases](https://github.com/squintz-sol/HornPub/releases).
 
-## v0.3.9 (pre-release), first public release
+## v0.3.10 (pre-release), first public release
 
 **New**
 - **Rolling EXP/hour:** the dashboard shows your EXP rate over the last 10 minutes (choose 5 / 10 / 15 / 30).
@@ -29,7 +29,9 @@ Downloads: [GitHub Releases](https://github.com/squintz-sol/HornPub/releases).
 - Levels containing a 7 (37, 47, 57, …) could be read with a digit missing. Saved recordings now show the level
   their EXP indicates.
 - EXP gained across a short gap in screen readings no longer causes a spike in the rolling rate.
+- A map whose only picture was an older scenery picture now gets its minimap picture the next time you record
+  there with the minimap open. The older picture is kept in `map_thumbs\replaced`.
 
 ## Earlier versions
 
-Versions 0.1 to 0.3.8 were private test builds and were not published.
+Versions 0.1 to 0.3.9 were private test builds and were not published.

@@ -35,7 +35,7 @@ for its EXP chart and notes, or to rename it, fix its map, or trim it.
 
 ![HornPub History with the Recordings list and a recording's EXP chart](screenshots/history-recording-details.png)
 
-<sub>Screenshots of HornPub v0.3.9 with sample data. Map pictures appear on the Top 3 cards once you've opened
+<sub>Screenshots of HornPub v0.3.10 with sample data. Map pictures appear on the Top 3 cards once you've opened
 your minimap on each map.</sub>
 
 ## Download
