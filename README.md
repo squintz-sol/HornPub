@@ -9,6 +9,23 @@ reads what is visible on your screen.
 > HornPub is an independent fan project. It is not affiliated with, endorsed or sponsored by NEXON.
 > See [DISCLAIMER.md](DISCLAIMER.md).
 
+## Download
+
+<!-- download-button:start -->
+<h3 align="center">
+  <a href="https://github.com/squintz-sol/HornPub/releases/download/v0.3.10/HornPub-v0.3.10-Full-Windows.zip"><kbd>&nbsp;&nbsp;⬇ Download HornPub for Windows&nbsp;&nbsp;</kbd></a>
+</h3>
+<p align="center"><sub><a href="https://github.com/squintz-sol/HornPub/releases/download/v0.3.10/HornPub-v0.3.10-Full-Windows.zip">HornPub-v0.3.10-Full-Windows.zip</a> · pre-release</sub></p>
+<!-- download-button:end -->
+
+Download the ZIP, extract the entire folder, and run HornPub.exe. No Python installation required.
+
+HornPub is free. GitHub [Releases](https://github.com/squintz-sol/HornPub/releases) is its only official download
+location: don't download it from anywhere else, and never pay for it. Each release lists the zip's SHA-256
+checksum so you can check your download ([how](INSTALL.md#check-your-download-optional)).
+
+The current version is a **pre-release**: it works, but it is still being tested on more PCs and screen sizes.
+
 ## Screenshots
 
 <table>
@@ -35,17 +52,6 @@ one for its EXP chart (the rolling rate against the session average) and notes, 
 split it into segments, or trim it.
 
 ![HornPub History with the Recordings list and a recording's EXP chart](screenshots/history-recording-details.png)
-
-## Download
-
-**[Download the latest version from Releases](https://github.com/squintz-sol/HornPub/releases)**. Pick
-`HornPub-v<version>-Full-Windows.zip` under *Assets*.
-
-HornPub is free. GitHub Releases is its only official download location: don't download it from anywhere
-else, and never pay for it. Each release lists the zip's SHA-256 checksum so you can check your download
-([how](INSTALL.md#check-your-download-optional)).
-
-The current version is a **pre-release**: it works, but it is still being tested on more PCs and screen sizes.
 
 ## Features
 
