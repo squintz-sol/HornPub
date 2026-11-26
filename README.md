@@ -13,9 +13,9 @@ reads what is visible on your screen.
 
 <!-- download-button:start -->
 <h3 align="center">
-  <a href="https://github.com/squintz-sol/HornPub/releases/download/v0.3.10/HornPub-v0.3.10-Full-Windows.zip"><kbd>&nbsp;&nbsp;⬇ Download HornPub for Windows&nbsp;&nbsp;</kbd></a>
+  <a href="https://github.com/squintz-sol/HornPub/releases/download/v0.5.0/HornPub-v0.5.0-Full-Windows.zip"><kbd>&nbsp;&nbsp;⬇ Download HornPub for Windows&nbsp;&nbsp;</kbd></a>
 </h3>
-<p align="center"><sub><a href="https://github.com/squintz-sol/HornPub/releases/download/v0.3.10/HornPub-v0.3.10-Full-Windows.zip">HornPub-v0.3.10-Full-Windows.zip</a> · pre-release</sub></p>
+<p align="center"><sub><a href="https://github.com/squintz-sol/HornPub/releases/download/v0.5.0/HornPub-v0.5.0-Full-Windows.zip">HornPub-v0.5.0-Full-Windows.zip</a> · pre-release</sub></p>
 <!-- download-button:end -->
 
 Download the ZIP, extract the entire folder, and run HornPub.exe. No Python installation required.
@@ -55,16 +55,22 @@ split it into segments, or trim it.
 
 ## Features
 
-- **EXP tracking:** EXP gained, EXP per minute and per hour, and level-ups handled correctly.
-- **Rolling EXP/hour:** your rate over the last 10 minutes (choose 5, 10, 15 or 30). After you stop, the final
-  rolling rate is kept, and the whole-session average is still available.
+- **EXP tracking:** EXP gained, EXP per minute and per hour, and level-ups handled correctly, including once your
+  EXP counter passes 1,000,000 (where the game shows only the percentage).
+- **Rolling EXP/hour:** your rate over the last 10 minutes (choose 5, 10, 15 or 30, or the session average).
+  After you stop, the final rolling rate is kept, and the whole-session average is still available.
+- **EXP trend:** a small chart of your recent rate against your session average, a "↑ / ↓ vs avg"
+  indicator, and your best 10 minutes of the recording.
 - **Level-up ETA and custom targets:** the time left and the local clock time you'll reach your next level, or
-  any EXP % you choose.
+  any EXP % you choose, from the first EXP gained.
+- **Mini overlay:** a slim, draggable strip with EXP/hr, mesos/hr, time and map; optionally always on top.
 - **Mesos tracking:** mesos gained and mesos per hour.
 - **Potion counting:** HP / MP potions used and picked up, read from your quickslot. You name each potion icon
   once with *Identify…* and HornPub remembers it.
 - **Net Mesos:** mesos earned after the cost of the potions you drank (an estimate; see
   [Known limitations](#known-limitations)).
+- **Loot tracking (beta, off by default):** items, quantities and mesos read from the pickup log, shown per
+  recording in History.
 - **History:** every recording is saved on your PC, with an EXP chart, notes, renaming, and trimming (cut off
   time spent in town).
 - **Top 3 Farming Maps:** your best maps ranked by EXP/hr, Mesos/hr or Net Mesos/hr (best recording or average).
@@ -108,6 +114,10 @@ Full instructions: [INSTALL.md](INSTALL.md).
   missed.
 - **Net Mesos is an estimate.** HornPub doesn't see NPC purchases and sales individually. A big jump in a
   potion count is treated as a possible restock and left out of farming earnings rather than guessed.
+- **EXP above 1,000,000 is an estimate.** The game then shows only the percentage, so the raw EXP is worked
+  out from it and your level's requirement (within about 0.01% of a level).
+- **Loot tracking is a beta.** A busy window right behind the pickup log (such as the inventory) hides its
+  lines, and no item prices are included, so loot value shows as "unknown".
 - **Map names** are read from the minimap and can be misread; you can correct them in History.
 - **Main monitor only.** Multi-monitor setups and unusual UI scales are less tested.
 - The app isn't code-signed, so Windows may warn you the first time you run it.

@@ -2,6 +2,28 @@
 
 Downloads: [GitHub Releases](https://github.com/squintz-sol/HornPub/releases).
 
+## v0.5.0 (pre-release)
+
+**New**
+- **EXP trend:** a small chart on the EXP card of your recent rate over the last 15 minutes, against your
+  session average (dashed). A "↑ / ↓ vs avg" indicator, and your best 10 minutes in the tooltip and in History.
+- **Mini overlay:** the "▭ Mini" button opens a slim, draggable strip with recording state, EXP/hr, mesos/hr,
+  time and map. Right-click for Always on top and Hide from screen captures. It never takes focus from the game.
+- **Loot tracking (beta, off by default):** turn it on in Settings → HP / MP & potions. Items, quantities and
+  mesos are read from the pickup log, each line counted once. History gets a Loot section that compares the
+  log's mesos with your balance.
+
+**Improved**
+- **Main EXP rate:** EXP/min and EXP/hr show the last 10 minutes while recording. The session average is in the
+  tooltip and in History, and is still a choice on the chip.
+- **Level-up ETA** starts from the first EXP gained, based on the session average, with no waiting period.
+
+**Fixed**
+- **EXP from 1,000,000 on:** the game shows only the percentage, which was misread as a tiny EXP value. That
+  caused a false level-up and 0.00%. The raw EXP is now estimated from the percentage and your level's
+  requirement, and the EXP card says so.
+- Maps whose minimap title is often misread (e.g. Monkey Forest I) now get their minimap picture.
+
 ## v0.3.10 (pre-release), first public release
 
 **New**
